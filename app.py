@@ -1,4 +1,8 @@
 import streamlit as st
+import sys, os
+# Ensure the repository root is on the Python path for module imports
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from login import show_login, logout
 from dashboard import render_dashboard
 from prediction import render_prediction_page
