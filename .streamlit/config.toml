@@ -1,0 +1,15 @@
+[theme]
+primaryColor="#0b5ed7"
+backgroundColor="#f8f9fa"
+secondaryBackgroundColor="#e9ecef"
+textColor="#212529"
+font="sans serif"
+[server]
+headless = true
+enableCORS = false
+[client]
+showSidebarNavigation = true
+[ui]
+hideSidebarToggle = false
+
+# Dark mode toggle will be controlled via Streamlit's built‑in theme switcher in the UI.
